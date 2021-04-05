@@ -200,6 +200,9 @@
 
   color: white;
 }
+.contact-items > a {
+  text-decoration: none;
+}
 
 /* ! Typed Cursor ! */
 .typed-cursor {
