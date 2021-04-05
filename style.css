@@ -1,10 +1,11 @@
-/* ! Fonts */
+/* === Fonts === */
 /* Bebas Neue */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300&display=swap");
 /* Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,800;1,900&display=swap");
 /* Lobster */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* === / Fonts === */
 
 * {
   margin: 0;
@@ -12,24 +13,16 @@
   box-sizing: border-box;
 }
 
-a, p {
-  text-decoration: none;
-}
-
-/* * Bootstrao */
+/* === Bootstrap === */
 .container-fluid {
   font-family: 'Montserrat';
   font-weight: 300;
-  font-size: 18px;
+  font-size: 18px;  
+}
+/* === / Bootstrap === */
 
-  
-}
 .navbar {
-  /* overflow: hidden; */
   background-color: rgb(0, 0, 0);
-}
-.navbar-expand {
-  /* box-shadow: 1px 1px 11px 11px black; */
 }
 #navbarNav {
   text-align: center;
@@ -49,8 +42,6 @@ a, p {
   position: relative;
   background-image: url(Images/bg1.png);
   background-size: cover;
-
-  
 }
 
 .greeting-msg {
@@ -61,12 +52,13 @@ a, p {
   font-family: 'Montserrat';
 } 
 
-/* * BG Image: */
+/* === BG Image: === */
 .img {
   background-size: cover;
   z-index: -1;
   width: 500px
 }
+/* === / BG Image  === */
 
 .about-me-info {
   background-color: rgb(11, 11, 11);
@@ -86,7 +78,7 @@ a, p {
   text-align: left;
 }
 
-/* * Tech Stack: */
+/* === Tech Stack: === */
 .tech-stack {
   background-color: rgb(11, 11, 11);
   color: #FFF;
@@ -129,8 +121,10 @@ a, p {
 
   box-shadow: 11px 11px 16px black;
 }
+/* === / Tech Stack === */
 
-/* * Projects:  */
+
+/* === Projects: === */
 .projects {
   display: none;
   background-color: rgb(11, 11, 11);
@@ -141,11 +135,8 @@ a, p {
   
   font-size: 30px;
   box-shadow: 1px 1px 11px black;
-
 }
 
-
-/* * Icons: */
 .icon {
   position: relative;
 
@@ -155,7 +146,7 @@ a, p {
   margin-left: 20px;
 }
 
-/* ! Grid layout for Projects: */
+/* === Grid layout === */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -164,7 +155,6 @@ a, p {
   justify-content: space-evenly;
 }
 .grid-item {
-  /* display: flex; */
   position: relative;
 
   font-size: 30px;
@@ -177,9 +167,12 @@ a, p {
   background-color: black;
   border-radius: 15px;
 }
+/* === / Grid Layout === */
+
+/* === / Tech Stack === */
 
 
-/* * Footer Contact: */
+/* === Footer Contact: === */
 .contact  {
   background-color:rgb(11, 11, 11);
   text-align: center;
@@ -196,26 +189,23 @@ a, p {
   background-color: #8739F9;
   border-radius: 16px;
   box-shadow: 1px 11px 11px rgb(0, 0, 0);
-  
-  text-decoration: none;
 
   margin-top: 15px;
 
   color: white;
 }
-.contact-items > a {
-  text-decoration: none;
-}
+/* === / Footer Contact === */
 
-/* ! Typed Cursor ! */
+
+/* === Typed Cursor === */
 .typed-cursor {
   color: #ffffff;
 }
+/* === /Typed Cursor === */
 
 .icon {
   z-index: 1;
 }
-
 
 .greeting { 
   margin-left: 1;
@@ -227,8 +217,11 @@ a, p {
 
 .media {
   color: black;
-  text-decoration: none;
   
   margin-left: 13px;
   margin-bottom: 13px;
+}
+
+.link {
+  text-decoration: none;
 }
